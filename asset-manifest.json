@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aims_pdf_web/static/css/main.a0849b00.css",
+    "main.js": "/aims_pdf_web/static/js/main.eb28652e.js",
+    "static/js/453.b8ce8da9.chunk.js": "/aims_pdf_web/static/js/453.b8ce8da9.chunk.js",
+    "static/media/leaflet1.png": "/aims_pdf_web/static/media/leaflet1.e889a6bb9febb14bea1b.png",
+    "static/media/leaflet2.png": "/aims_pdf_web/static/media/leaflet2.0349d966d04fa9f58817.png",
+    "static/media/logo.svg": "/aims_pdf_web/static/media/logo.8898bab822d4251f84aaaeebe9558efd.svg",
+    "index.html": "/aims_pdf_web/index.html",
+    "main.a0849b00.css.map": "/aims_pdf_web/static/css/main.a0849b00.css.map",
+    "main.eb28652e.js.map": "/aims_pdf_web/static/js/main.eb28652e.js.map",
+    "453.b8ce8da9.chunk.js.map": "/aims_pdf_web/static/js/453.b8ce8da9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0849b00.css",
+    "static/js/main.eb28652e.js"
+  ]
+}
