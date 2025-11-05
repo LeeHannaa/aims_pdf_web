@@ -1,7 +1,7 @@
 import "./App.css";
-import "./Component.css";
+import "./component.css";
 
-import { MdContactMail } from "react-icons/md";
+// import { MdContactMail } from "react-icons/md";
 import { FaFileDownload } from "react-icons/fa";
 import { Header } from "./component/Header";
 import { Leaflet } from "./component/Leaflet";
@@ -13,12 +13,19 @@ function App() {
   const BT = () => {
     return (
       <div className="BT-div">
-        <MdContactMail
+        {/* <MdContactMail
           style={{ marginRight: "20px", pointer: "cursor" }}
           onClick={() => window.open("https://aims.kr/HCP01_005", "_blank")}
-        />
+        /> */}
         <PDFDownloadLink document={<PdfDownload />} fileName="aims.pdf">
-          <FaFileDownload style={{ pointer: "cursor", color: "white" }} />
+          <FaFileDownload
+            style={{
+              pointer: "cursor",
+              color: "white",
+              paddingLeft: "50px",
+              fontSize: "20px",
+            }}
+          />
         </PDFDownloadLink>
       </div>
     );
@@ -27,8 +34,17 @@ function App() {
     <div className="App">
       <div className="App-div">
         <Header />
-        <BT />
-        <Leaflet />
+        <div
+          style={{
+            display: "flex",
+            alignItems: "flex-start",
+            marginLeft: "50px",
+            marginTop: "16px",
+          }}
+        >
+          <Leaflet />
+          <BT />
+        </div>
       </div>
       <Footer />
     </div>
