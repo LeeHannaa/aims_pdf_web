@@ -1,5 +1,5 @@
 import "./App.css";
-import "./component.css";
+import "./Component.css";
 
 // import { MdContactMail } from "react-icons/md";
 import { FaFileDownload } from "react-icons/fa";
