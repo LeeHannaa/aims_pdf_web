@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/aims_pdf_web/static/css/main.a0849b00.css",
-    "main.js": "/aims_pdf_web/static/js/main.eb28652e.js",
+    "main.css": "/aims_pdf_web/static/css/main.7fb79636.css",
+    "main.js": "/aims_pdf_web/static/js/main.b61f716d.js",
     "static/js/453.b8ce8da9.chunk.js": "/aims_pdf_web/static/js/453.b8ce8da9.chunk.js",
+    "static/media/3.jpg": "/aims_pdf_web/static/media/3.fdc7152663ce287364ec.jpg",
     "static/media/leaflet1.png": "/aims_pdf_web/static/media/leaflet1.e889a6bb9febb14bea1b.png",
+    "static/media/5.jpg": "/aims_pdf_web/static/media/5.9b5391c47ed3963c76d2.jpg",
+    "static/media/4.jpg": "/aims_pdf_web/static/media/4.3646208830ba46ab2f34.jpg",
+    "static/media/1.jpg": "/aims_pdf_web/static/media/1.d18724d836db8ab663f2.jpg",
     "static/media/leaflet2.png": "/aims_pdf_web/static/media/leaflet2.0349d966d04fa9f58817.png",
-    "static/media/logo.svg": "/aims_pdf_web/static/media/logo.8898bab822d4251f84aaaeebe9558efd.svg",
+    "static/media/2.jpg": "/aims_pdf_web/static/media/2.3ba46dcad25cfd720930.jpg",
+    "static/media/6.jpg": "/aims_pdf_web/static/media/6.4328bf6a3cb37f4363f3.jpg",
+    "static/media/logo.svg": "/aims_pdf_web/static/media/logo.469e7df548c5f92aa7002e7cbf92b4cf.svg",
     "index.html": "/aims_pdf_web/index.html",
-    "main.a0849b00.css.map": "/aims_pdf_web/static/css/main.a0849b00.css.map",
-    "main.eb28652e.js.map": "/aims_pdf_web/static/js/main.eb28652e.js.map",
+    "main.7fb79636.css.map": "/aims_pdf_web/static/css/main.7fb79636.css.map",
+    "main.b61f716d.js.map": "/aims_pdf_web/static/js/main.b61f716d.js.map",
     "453.b8ce8da9.chunk.js.map": "/aims_pdf_web/static/js/453.b8ce8da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0849b00.css",
-    "static/js/main.eb28652e.js"
+    "static/css/main.7fb79636.css",
+    "static/js/main.b61f716d.js"
   ]
 }
