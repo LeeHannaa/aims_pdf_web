@@ -19,8 +19,13 @@
   transition: transform 0.3s ease;
 }
 
+.carousel .slider-wrapper {
+  width: 200px;
+}
+
 .carousel .thumbs-wrapper {
-  margin: 20px;
+  width: 310px;
+  margin: 0px;
   margin-top: 10px;
   overflow: hidden;
 }
@@ -62,9 +67,9 @@
 }
 
 .carousel .control-prev.control-arrow:before {
-  border-right: 8px solid #5c5c5c;
+  border-right: 8px solid #e2edff;
 }
 
 .carousel .control-next.control-arrow:before {
-  border-left: 8px solid #5c5c5c;
+  border-left: 8px solid #e2edff;
 }

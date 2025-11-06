@@ -12,7 +12,7 @@ import "../carousel.css";
 
 export const Leaflet = () => {
   return (
-    <div style={{ width: "200px" }}>
+    <div>
       <Carousel
         showArrows={true}
         infiniteLoop

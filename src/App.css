@@ -13,7 +13,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   color: white;
 }
 
@@ -52,7 +52,7 @@
 }
 .Footer-div-left span {
   color: white;
-  margin: 0px 0px 8px 20px;
+  margin: 0px 0px 8px 28px;
 }
 
 .Footer-div-right {
@@ -60,6 +60,6 @@
 }
 .Footer-div-right span {
   color: rgb(199, 199, 199);
-  margin: 0px 20px 8px 0px;
+  margin: 0px 52px 8px 0px;
   cursor: pointer;
 }

@@ -22,7 +22,7 @@ function App() {
             style={{
               pointer: "cursor",
               color: "white",
-              paddingLeft: "50px",
+              alignItems: "flex-start",
               fontSize: "20px",
             }}
           />
@@ -38,8 +38,8 @@ function App() {
           style={{
             display: "flex",
             alignItems: "flex-start",
-            marginLeft: "50px",
             marginTop: "16px",
+            paddingLeft: "32px",
           }}
         >
           <Leaflet />
