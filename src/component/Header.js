@@ -6,7 +6,7 @@ export const Header = () => {
     <div className="Header-div">
       <img className="Logo-img" src={Logo} alt="logo" />
       <p style={{ fontSize: "10px", marginTop: "30px", marginRight: "20px" }}>
-        {"Artificial Intelligence for Manufacturing Software"
+        {"Artificial Intelligence for Manufacturing System"
           .split("")
           .map((ch, i) =>
             ch >= "A" && ch <= "Z" ? (

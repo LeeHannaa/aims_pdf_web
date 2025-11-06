@@ -5,22 +5,20 @@
   -o-transition: border 0.15s ease-in;
   transition: border 0.15s ease-in;
   display: inline-block;
-  /* margin-right: 6px; */
   white-space: nowrap;
   overflow: hidden;
   border: none;
-  padding: 2px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  width: 76px !important;
 }
 
 .carousel .thumb.selected,
 .carousel .thumb:hover {
   border: none;
-  transform: scale(1.12);
+  transform: scale(1.16);
   transition: transform 0.3s ease;
-}
-
-.carousel .slider-wrapper {
-  width: 200px;
 }
 
 .carousel .thumbs-wrapper {
@@ -30,8 +28,28 @@
   overflow: hidden;
 }
 
+.carousel .thumbs-wrapper img {
+  width: 85%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
 .carousel .thumbs-wrapper .control-arrow {
   display: none;
+}
+
+.carousel .slider-wrapper {
+  width: 200px;
+  cursor: pointer;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .carousel .control-dots {
@@ -52,14 +70,14 @@
   transition: opacity 0.25s ease-in;
   opacity: 0.3;
   filter: alpha(opacity=30);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-  background: #eaeaea;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  background: #141c44;
   border-radius: 50%;
   width: 4px;
   height: 4px;
   cursor: pointer;
   display: inline-block;
-  margin: 0 8px;
+  margin: 0 3px;
 }
 
 .carousel.carousel-slider .control-arrow:hover {

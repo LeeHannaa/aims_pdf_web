@@ -15,6 +15,7 @@ export const PdfDownload = () => {
           alt="leaflet1"
           crossOrigin="anonymous"
         />
+        <div style={{ height: "8px", width: "100%" }}></div>
         <Image
           className="Leaflet-img"
           src={Leaflet2}

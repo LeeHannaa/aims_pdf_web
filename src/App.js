@@ -1,7 +1,5 @@
 import "./App.css";
 import "./Component.css";
-
-// import { MdContactMail } from "react-icons/md";
 import { FaFileDownload } from "react-icons/fa";
 import { Header } from "./component/Header";
 import { Leaflet } from "./component/Leaflet";
@@ -13,10 +11,6 @@ function App() {
   const BT = () => {
     return (
       <div className="BT-div">
-        {/* <MdContactMail
-          style={{ marginRight: "20px", pointer: "cursor" }}
-          onClick={() => window.open("https://aims.kr/HCP01_005", "_blank")}
-        /> */}
         <PDFDownloadLink document={<PdfDownload />} fileName="aims.pdf">
           <FaFileDownload
             style={{
