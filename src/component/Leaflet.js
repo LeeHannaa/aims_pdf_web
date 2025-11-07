@@ -30,6 +30,18 @@ export const Leaflet = () => {
 
   return (
     <div>
+      <p
+        style={{
+          fontSize: "7px",
+          color: "#aaaaaaff",
+          textAlign: "center",
+          fontWeight: "bold",
+          margin: "0px 0px 5px 0px",
+        }}
+      >
+        * 오른쪽 PDF 다운로드 또는 아래 이미지를 클릭하시면 확대하여 확인할 수
+        있습니다.
+      </p>
       <Carousel
         showArrows={true}
         infiniteLoop
@@ -49,10 +61,7 @@ export const Leaflet = () => {
           </div>
         ))}
       </Carousel>
-      <p style={{ fontSize: "6.5px", color: "#aaaaaaff", textAlign: "center" }}>
-        * 자세한 내용을 보고 싶으신 경우, 상단의 pdf 다운로드나 이미지를 클릭해
-        확대해보실 수 있습니다.
-      </p>
+
       {selectedIndex !== null && (
         <div
           onClick={() => setSelectedIndex(null)}

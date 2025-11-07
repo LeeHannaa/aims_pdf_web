@@ -11,13 +11,13 @@
   padding: 0px;
   margin: 0px;
   cursor: pointer;
-  width: 76px !important;
+  width: 73px !important;
 }
 
 .carousel .thumb.selected,
 .carousel .thumb:hover {
   border: none;
-  transform: scale(1.16);
+  transform: scale(1.12);
   transition: transform 0.3s ease;
 }
 
@@ -25,6 +25,7 @@
   width: 310px;
   margin: 0px;
   margin-top: 10px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 
